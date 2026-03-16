@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Shuaib V.M | ASP.NET Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Muhammed Shuaib V.M, ASP.NET Full Stack Developer based in Kerala, India.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">MS.<span>dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="auth-section" id="authSection">
+                <a href="login.html" class="btn btn-primary btn-sm"><i class="fas fa-sign-in-alt"></i> Login</a>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content hidden-element">
+                <h3 class="greeting">Hello, I'm</h3>
+                <h1 class="name">Muhammed <span>Shuaib</span> V.M</h1>
+                <h2 class="role">ASP.NET Full Stack Developer</h2>
+                <div id="loggedInWelcome" class="logged-in-message" style="display: none;">
+                    <p><i class="fas fa-check-circle" style="color: #10b981;"></i> Welcome back, <span id="userNameDisplay">User</span>!</p>
+                </div>
+                <p class="bio">
+                    Motivated graduate with a strong interest in software development. Skilled in building robust web applications using the Microsoft stack. I turn complex problems into elegant, efficient, and user-centric solutions.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Let's Talk <i class="fas fa-paper-plane"></i></a>
+                    <a href="#projects" class="btn btn-outline">View Work <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/muhammed-shuaib-v-m" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/MuhammedShuaibVM" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#skills"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Skills & Expertise -->
+    <section id="skills" class="skills-section">
+        <div class="section-title hidden-element">
+            <h2>Skills & <span>Expertise</span></h2>
+            <p>My technical toolkit and competencies</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category hidden-element">
+                <div class="category-header">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Technologies</h3>
+                </div>
+                <div class="skill-grid">
+                    <div class="skill-item"><i class="fab fa-html5"></i> <span>HTML5</span></div>
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i> <span>CSS3</span></div>
+                    <div class="skill-item"><i class="fab fa-js"></i> <span>JavaScript</span></div>
+                    <div class="skill-item"><i class="fab fa-windows"></i> <span>ASP.NET Core</span></div>
+                    <div class="skill-item"><i class="fas fa-server"></i> <span>ASP.NET MVC</span></div>
+                    <div class="skill-item"><i class="fas fa-network-wired"></i> <span>Web API</span></div>
+                </div>
+            </div>
+            <div class="skill-category hidden-element">
+                <div class="category-header">
+                    <i class="fas fa-terminal"></i>
+                    <h3>Programming</h3>
+                </div>
+                <div class="skill-grid">
+                    <div class="skill-item"><span class="lang-icon">C#</span> <span>C#</span></div>
+                    <div class="skill-item"><i class="fas fa-database"></i> <span>LINQ</span></div>
+                </div>
+            </div>
+            <div class="skill-category hidden-element">
+                <div class="category-header">
+                    <i class="fas fa-database"></i>
+                    <h3>Database</h3>
+                </div>
+                <div class="skill-grid">
+                    <div class="skill-item"><i class="fas fa-server"></i> <span>SQL Server</span></div>
+                    <div class="skill-item"><i class="fas fa-table"></i> <span>DBMS</span></div>
+                </div>
+            </div>
+            <div class="skill-category hidden-element">
+                <div class="category-header">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools</h3>
+                </div>
+                <div class="skill-grid">
+                    <div class="skill-item"><i class="fab fa-microsoft"></i> <span>Visual Studio</span></div>
+                    <div class="skill-item"><i class="fab fa-git-alt"></i> <span>Git</span></div>
+                    <div class="skill-item"><i class="fab fa-github"></i> <span>GitHub</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services-section">
+        <div class="section-title hidden-element">
+            <h2>My <span>Services</span></h2>
+            <p>What I can do for your business</p>
+        </div>
+        <div class="services-container">
+            <div class="service-card hidden-element">
+                <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                <h3>Full Stack Development</h3>
+                <p>Building responsive, scalable, and dynamic web applications from front-end interfaces to back-end logic using ASP.NET architecture.</p>
+            </div>
+            <div class="service-card hidden-element">
+                <div class="service-icon"><i class="fas fa-server"></i></div>
+                <h3>API Development</h3>
+                <p>Creating robust and secure RESTful Web APIs to connect front-end applications, mobile apps, and third-party services seamlessly.</p>
+            </div>
+            <div class="service-card hidden-element">
+                <div class="service-icon"><i class="fas fa-database"></i></div>
+                <h3>Database Management</h3>
+                <p>Designing, implementing, and optimizing SQL Server databases. Ensuring data integrity, performance, and secure data handling.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects-section">
+        <div class="section-title hidden-element">
+            <h2>Featured <span>Projects</span></h2>
+            <p>Recent work I've built</p>
+        </div>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card hidden-element">
+                <div class="project-image">
+                    <div class="placeholder-img" style="background: linear-gradient(135deg, #1e3c72, #2a5298); display: flex; align-items: center; justify-content: center; height: 100%;">
+                        <i class="fas fa-shopping-cart fa-4x" style="color: rgba(255,255,255,0.5);"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/MuhammedShuaibVM/Online-Shopping-Ecommerce" target="_blank" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span>ASP.NET</span>
+                        <span>C#</span>
+                        <span>SQL Server</span>
+                    </div>
+                    <h3>Online Shopping E-commerce</h3>
+                    <p>A comprehensive e-commerce platform featuring admin and user authentication systems, product and category management, and a seamless shopping cart experience with database integration.</p>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card hidden-element">
+                <div class="project-image">
+                    <div class="placeholder-img" style="background: linear-gradient(135deg, #4b1248, #f0c27b); display: flex; align-items: center; justify-content: center; height: 100%;">
+                        <i class="fas fa-briefcase fa-4x" style="color: rgba(255,255,255,0.5);"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="#" class="project-link disabled"><i class="fas fa-clock"></i> Upcoming</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span>ASP.NET MVC</span>
+                        <span>Web API</span>
+                        <span>C#</span>
+                    </div>
+                    <h3>Job Portal Website</h3>
+                    <p>A dynamic job board allowing user authentication for both admins and job seekers. Features robust job posting, advanced search capabilities, and secure Web API integration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-title hidden-element">
+            <h2>Get In <span>Touch</span></h2>
+            <p>Let's collaborate on your next project</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info hidden-element">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out for exploring opportunities, collaborations, or just to say hi!</p>
+                
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="info-text">
+                        <h4>Email</h4>
+                        <a href="mailto:shuaibmuhammed12345@gmail.com">shuaibmuhammed12345@gmail.com</a>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="info-text">
+                        <h4>Phone</h4>
+                        <a href="tel:+918089069427">+91 8089069427</a>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="info-text">
+                        <h4>Location</h4>
+                        <p>Thrissur, Kerala, India</p>
+                    </div>
+                </div>
+
+                <div class="contact-social">
+                    <a href="https://linkedin.com/in/muhammed-shuaib-v-m" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/MuhammedShuaibVM" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-form-container hidden-element">
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Form submission simulated successfully! In a real application, this would connect to a backend API.');">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>&copy; 2025 Muhammed Shuaib V.M. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

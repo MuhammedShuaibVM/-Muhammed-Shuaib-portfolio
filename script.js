@@ -134,3 +134,38 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+
+// ==========================================
+// Contact Form Submission
+// ==========================================
+let submitted = false;
+
+function showSuccessPopup() {
+    const modal = document.getElementById('successModal');
+    const form = document.querySelector('.contact-form');
+    
+    // Show modal
+    modal.classList.add('show');
+    
+    // Reset form
+    form.reset();
+    submitted = false; // Reset the flag
+    
+    // Handle modal close
+    const closeBtn = modal.querySelector('.close-btn');
+    const closeIcon = modal.querySelector('.close-modal');
+    
+    const closeModal = () => {
+        modal.classList.remove('show');
+    };
+    
+    closeBtn.addEventListener('click', closeModal);
+    closeIcon.addEventListener('click', closeModal);
+    
+    // Close on outside click
+    window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+}
